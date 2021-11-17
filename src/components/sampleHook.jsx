@@ -10,7 +10,7 @@ const SampleHook = () => {
 
   useEffect(() => {
     console.log(spanRef.current.innerHTML);
-    console.log(`mounted & updated : ${cnt}`);
+    console.log(`mounted & updated ! : ${cnt}`);
   }, []);
 
   return (
