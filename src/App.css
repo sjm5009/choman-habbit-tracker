@@ -100,3 +100,22 @@ button {
   color: white;
   background-color: yellowgreen;
 }
+
+@media screen and (max-width: 767px) {
+  /* 모바일 */
+  .add-input {
+    position: relative;
+    top: 0.1em;
+    font-size: 1.6em;
+    height: 100%;
+    margin: 1em 0.2em 0em 1.4em;
+  }
+
+  .add-button {
+    height: 100%;
+    font-size: 1.25rem;
+    padding: 0.3em 0.5em;
+    background-color: green;
+    color: white;
+  }
+}
